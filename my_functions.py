@@ -14,7 +14,7 @@ def numeric_to_letter_grade(i):
         return "A-"
     elif i >= 87.5:
         return "B+"
-    elif i >=83:
+    elif i >= 83:
         return "B"
     elif i >= 80:
         return "B-"
