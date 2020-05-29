@@ -33,13 +33,14 @@ if __name__ == "__main__":
     print("CUSTOM FUNCTIONS EXERCISE...")
 
     print("--------------------")
-    c = float(input("Provide A Celsius Temperature To Be Converted "))
+    c = float(input("Provide A Celsius Temperature To Be Converted: "))
+    
     print("THE CELSIUS TEMP IS:", c, "DEGREES")
     f = celsius_to_fahrenheit(c)
     print("THE FAHRENHEIT EQUIVALENT IS:", f, "DEGREES")
 
     print("--------------------")
-    score = float(input("Please Provide Your Numeric Grade "))
+    score = float(input("Please Provide Your Numeric Grade: "))
     print("THE NUMERIC SCORE IS:", score)
     grade = numeric_to_letter_grade(score)
     print("THE LETTER-GRADE EQUIVALENT IS:", grade)
